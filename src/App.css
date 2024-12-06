@@ -1,0 +1,53 @@
+.Clouds {
+  background: rgb(156, 156, 156) !important;
+  background: linear-gradient(
+    147deg,
+    rgba(156, 156, 156, 1) 0%,
+    rgba(196, 197, 198, 1) 50%,
+    rgba(223, 223, 223, 1) 100%
+  ) !important;
+}
+
+.Clear {
+  background: rgb(107, 220, 255) !important;
+  background: linear-gradient(
+    147deg,
+    rgb(8, 197, 255) 0%,
+    rgb(82, 237, 251) 50%,
+    rgb(117, 246, 255) 100%
+  ) !important;
+}
+
+.Rain {
+  background: rgb(131, 131, 131) !important;
+  background: linear-gradient(
+    147deg,
+    rgb(131, 131, 131) 0%,
+    rgb(106, 106, 106) 50%,
+    rgb(84, 84, 84) 100%
+  ) !important;
+}
+
+.Drizzle {
+  background: rgb(136, 136, 136) !important;
+  background: linear-gradient(
+    147deg,
+    rgba(136, 136, 136, 1) 0%,
+    rgba(113, 113, 113, 1) 50%,
+    rgba(82, 82, 82, 1) 100%
+  ) !important;
+}
+
+.Thunderstorm {
+  background: rgb(106, 106, 106) !important;
+  background: linear-gradient(
+    147deg,
+    rgba(106, 106, 106, 1) 0%,
+    rgba(80, 80, 80, 1) 50%,
+    rgba(40, 40, 40, 1) 100%
+  ) !important;
+}
+
+.bigg {
+  font-size: 4rem !important;
+}
