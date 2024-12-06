@@ -52,17 +52,14 @@ function SingleDay({ apiKey }) {
               <Col xs={12} md={8} lg={6} className="text-center">
                 <h2 className="bigg">{params.city}</h2>
                 <h2>{weather.list[params.day].dt_txt.slice(0, 11)}</h2>
-
                 <p className="mb-0">
                   Max:
                   {Math.round(
-                    Number(weather.list[Number(params.day) - 2].main.temp_max) -
-                      273
+                    Number(weather.list[Number(params.day)].main.temp_max) - 273
                   )}
                   ° Min:
                   {Math.round(
-                    Number(weather.list[Number(params.day) + 2].main.temp_min) -
-                      273
+                    Number(weather.list[Number(params.day)].main.temp_min) - 273
                   )}
                   °
                 </p>
